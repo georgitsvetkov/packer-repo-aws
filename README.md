@@ -1,6 +1,6 @@
 # packer-aws-repo
 
-Create a nginx AWS box ubuntu lts - README.md with instructions (gh repo)
+Create a nginx AWS box ubuntu lts, using Apple Mac M1 Pro
 
 # How to use this repo 
 
@@ -80,3 +80,6 @@ packer build aws-ubuntu.pkr.hcl
 ```
 
 - Visit the [AWS AMI page](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1#ImageDetails:imageId=ami-0e25fd084241a0d7f) to verify that Packer successfully built your AMI.
+
+> `Disclaimer:` Please note that the above is being tested using Apple Mac M1 Pro, running macOS Monterey
+
